@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+#main_div_id{
+  width:50%;
+  margin:auto;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vw;
+  padding:1vw;
+}p{
+  width:90%;
+  margin:auto;
+  text-align: center;
+}
+
+#btn{
+  position:fixed;
+  top:2vw;
+  right:2vw;
+  cursor:pointer;
+}
+ 
+
+input[type=button]{
+  width:2vw;
+  border-radius:50%;
+  border:none;
+  margin:0.5vw;
+  cursor: pointer;
+  border: 1px solid gray;
+  
+}
+#main_drawer_div_id{
+  width:35vw;
+  margin-top:5vw;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vw;
+}
+.inner_div{
+  background-color:#F1F7FA;
+  padding:1vw;
+}
+h3{
+  font-size: 2vw;
+  text-align: center;
+}
+#all_contrast_div{
+  width:100%;
+  display: flex;
+  margin-top:3vw;
+  justify-content: space-evenly;
+}
+.contrast_div{
+  padding:2vw;
+  background-color: #F1F7FA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vw;
+  cursor: pointer;
+}
+.contrast_div:hover{
+  border:1px solid rgb(15, 81, 97);
+}
+.p_contrast{
+  width:100%;
+  font-size: 1vw;
+}
